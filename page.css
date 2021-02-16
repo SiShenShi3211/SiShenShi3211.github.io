@@ -1,0 +1,19 @@
+img{ 
+    position: absolute; 
+    width: 20%; 
+    height: auto; 
+      
+} 
+ 
+#textItems{ 
+    position: absolute; 
+    left: 23%; 
+} 
+ 
+ 
+#animButton 
+{ 
+    width: 20%; 
+    height: 30px; 
+    background-color: darkgrey; 
+} 
