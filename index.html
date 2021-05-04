@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <!--Add link to files here-->
+
+        <!--Links to use Semantic UI and JSON-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.js"></script>
+
+        <!--Links to other pages-->
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+        <script src="notification.js"></script>
+        
+
+        <link rel="manifest" href="manifest.json">
+        
+
+    </head>
+
+    <body>
+        <!--Create div that covers enire page-->
+        <div id="fixed-background"></div>
+
+        <!--Manage content to be mobile friendly in this div-->
+        <div id="main-content">
+
+           <!--Add btn for serverworker-->
+           
+
+            <!--Header-->
+            <h1 id="start-header">Information about PWAs</h1>
+
+            <!--Paragraph #1-->
+            <h1><strong>What are PWAs?</strong></h1>
+
+            <p>PWA stands for "Progressive Web Application". They combine different technologies in order to create powerful web applications.
+                They create a much better user experience, increasing the view time on a per user basis.
+            </p>
+
+            <!--Paragraph #2-->
+            <h1><strong>Why are they so useful?</strong></h1>
+
+            <p>To say the least they are <strong>reliable, fast, and engaging.</strong> When the app is lauched the PWA is loaded in instantly regardless of the user's network state.
+                The user's experience only gets better. The speed is important as many users will leave your website if it takes even a few seconds to load.
+                The PWA allows the user to download the app to their home screen.</p>
+
+
+                <!--Drop Down menu-->
+            <div id="main-content-accordion">
+                <div class="ui container"></div>
+                    <!--One dropdown menu for background image selections-->
+                    <div class="ui accordion">
+                        <div class="title">
+                            
+                            <p><i class="angle down icon"></i> Change background image</p>
+                        </div>
+                        <div class="content">
+                            <button id="switchBlue"><img src="lightblue.jpg"></button>
+                            <button id="switchGold"><img src="lightgold.jpg"></button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        
+
+    </body>
+
+</html>
