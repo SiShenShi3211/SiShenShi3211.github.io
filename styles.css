@@ -86,7 +86,7 @@ body
 #fixed-background
 {
     position: fixed;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     background-color: #F6511D;
     background-repeat:no-repeat;
